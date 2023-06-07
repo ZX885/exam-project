@@ -1,0 +1,72 @@
+* {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.h {
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+}
+
+.log {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 622px;
+    height: 439px;
+}
+
+.h4 {
+    position: relative;
+    bottom: 50px;
+    right: 105px;
+}
+
+.inp {
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    position: relative;
+    bottom: 10px;
+    right: 150px;
+}
+
+.second {
+    position: relative;
+    bottom: 58px;
+    left: 50px;
+}
+
+.log input {
+    margin: 10px;
+}
+
+.email {
+    position: relative;
+    width: 386px;
+    right: 50px;
+    bottom: 50px;
+}
+
+.password {
+    position: relative;
+    width: 386px;
+    right: 50px;
+    bottom: 50px;
+}
+
+.regist {
+    position: relative;
+    right: 180px;
+    color: white;
+    width: 120px;
+    height: 40px;
+    background: #18A0FB;
+    border-radius: 6px;
+    border-style: none;
+}

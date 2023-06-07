@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    position: relative;
+    right: 90px;
+    display: flex;
+    gap: 50px;
+}
+a{
+    color: #18A0FB;
+    text-decoration: none;
+}
+.logo {
+    position: relative;
+    right: 150px;
+}
+
+#p {
+    position: relative;
+    left: 350px;
+    bottom: 10px;
+}
+
+.login {
+    background: white;
+    position: relative;
+    top: 10px;
+    height: 30px;
+    width: 80px;
+    color: #18A0FB;
+    border-radius: 6px;
+    border-color: #18A0FB;
+}
+
+.regist {
+    border-style: none;
+    color: aliceblue;
+    position: relative;
+    top: 10px;
+    height: 30px;
+    width: 80px;
+    background: #18A0FB;
+    border-radius: 6px;
+}
+
+.vid {
+    position: relative;
+    display: flex;
+}
+
+.vide {
+    position: inherit;
+}
+
+.frame {
+    display: flex;
+    position: relative;
+}
+
+.h1 {
+    display: flex;
+    color: antiquewhite;
+    position: sticky;
+}
+
+.jjoin{
+    display: flex;
+}
+.join {
+    color: white;
+    background-color: #18A0FB;
+    border-radius: 6px;
+    text-decoration: none;
+    border-style: none;
+    height: 30px;
+    width: 100px;
+}
+
+.s {
+    position: relative;
+    bottom: 450px;
+}
+
+.h {
+    width: 500px;
+    margin-left: 80px;
+}
+
+.di {
+    justify-content: center;
+    align-items: center;
+}
+
+.grids {
+    display: grid;
+    margin: 20px auto;
+    margin-left: 47px;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.grids div {
+    margin: 30px auto;
+}
+
+.grids div p {
+    width: 550px;
+}
+
+.bb {
+    width: 150px;
+    height: 30px;
+    background: white;
+    color: #18A0FB;
+    border-radius: 6px;
+    border-color: #18A0FB;
+}
+
+.grids2 {
+    display: grid;
+    margin: 20px auto;
+    margin-left: 80px;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.grids2 div p {
+    width: 550px;
+}
+
+.grids3 {
+    display: grid;
+    margin: 20px;
+    margin-left: 30px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grids3 div {
+    margin: 25px auto;
+}
+
+.fo {
+    display: flex;
+    flex-direction: column;
+}
+
+.dv {
+    display: flex;
+    background-color: rgba(245, 245, 245, 1);
+    width: 1300px;
+    height: 340px;
+}
+
+.dv div {
+    margin: 30px;
+}
+
+.p {
+    width: 800px;
+}
+
+.jj {
+    border-style: none;
+    color: aliceblue;
+    height: 30px;
+    width: 120px;
+    background: #18A0FB;
+    border-radius: 6px;
+}
+
+.cc {
+    background: white;
+    width: 120px;
+    height: 30px;
+    color: #18A0FB;
+    border-radius: 6px;
+    border-color: #18A0FB;
+}
+
+.footer div {
+    margin: 50px;
+}
+.class{
+    display: flex;
+}
+.class img{
+    margin: 10px;
+    max-width: 80px;
+}
+
+@media (max-width: 760px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav{
+        position: relative;
+        right: 0;
+        display: flex;
+        gap: 50px;
+    }
+    .logo{
+        position: relative;
+        right: 0;
+    }
+    .h1 {
+        display: flex;
+        color: antiquewhite;
+        position: sticky;
+        width: 600px;
+    }
+    .s{
+        position: relative;
+        bottom: 0px;
+        left: 100px;
+    }
+    .video{
+        position: relative;
+        left: 200px;
+    }
+    .vide{
+        display: flex;
+        position: absolute;
+        width: 850px;
+        
+    }
+    .vid{
+        display: flex;
+        position: inherit;
+    }
+    .d{
+        position: relative;
+        left: 0;
+    }
+    .grids2{
+        position: relative;
+        display: grid;
+        /* margin: 20px auto;
+        margin-left: 80px; */
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+}
